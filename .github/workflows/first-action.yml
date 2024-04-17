@@ -1,0 +1,17 @@
+#name of the workflow 
+name: First workflow
+
+#when this flow should be executed
+on: workflow_dispatch
+
+jobs:
+  #name of job
+  first-job:
+    #Execution environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello from Github"
+      - name: Say Bye
+        run: echo "Thanks-you bye!"
+

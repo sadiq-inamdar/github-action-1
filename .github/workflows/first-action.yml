@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello from Github"
+      - name: Something
+        run: |
+          echo "First output"
+          echo "Second output"
       - name: Say Bye
         run: echo "Thanks-you bye!"
+        
 
